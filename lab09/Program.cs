@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab09
+namespace DelegatesAndEvents
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
+    public delegate void MyDelegate();
+    public class DelegateExercises : MyDelegate
+{
     }
 }
